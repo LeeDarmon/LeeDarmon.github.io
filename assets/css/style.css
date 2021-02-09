@@ -1,0 +1,92 @@
+
+@font-face {
+	font-family: "horloge";
+	src: url('../fonts/Timepiece.otf');
+        
+   }
+.main_body{
+    overflow-x: hidden;
+}
+
+.timepiece{
+    font-family: "horloge";
+    font-size: 40px!important;
+}
+.timepiece1{
+    font-family: "horloge";
+    font-size: 60px!important;
+}
+.container-fluid{
+    padding-left:0px!important;
+    padding-right: 0px!important;
+}
+
+.main_header{
+    height:120px;
+}
+
+.bg-dark{
+    background-color: black!important;
+}
+.text-dark{
+    color:black!important;
+}
+
+.btn-outline-dark {
+    color: black;
+    border-color: black;
+}
+
+.btn-outline-dark :hover {
+    background-color: black!important;
+}
+
+
+
+.navbar-brand-centered {
+    display: block;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.bloc {
+    min-height: 550px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    padding-left:0!important;
+    padding-right:0!important;
+    
+}
+
+.no_style{
+    text-decoration: none;
+}
+
+
+.competence_icon{
+    height:100px;
+}
+
+table{
+    margin-bottom:0px!important;
+}
+
+.btn-link{
+    color:black!important;
+
+}
+
+.card-borderless{
+border:none!important
+}
+
+.card-header{
+    background-color: white!important;
+    /* border : 2px solid black; */
+    /* border: 2px dotted black; */
+}
+
+.card-img-top{
+    width:150px;
+}
