@@ -90,3 +90,24 @@ border:none!important
 .card-img-top{
     width:150px;
 }
+
+.langage-btn-img{
+    width:40px;
+    border: thick double grey;
+    border-radius:40px;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+.langage-btn-img:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+
+}
+
+.no-padding{
+    padding-left:0px!important;
+    padding-right:0px!important;
+}

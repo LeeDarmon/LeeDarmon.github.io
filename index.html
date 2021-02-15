@@ -11,16 +11,28 @@
 
 </head>
 
+
 <body class="main_body text-dark">
     <div class="container-fluid">
-        <header class="main_header">
-            <p class="text-center darmon-brand timepiece1 text-dark">LD</p>
+        <header class="main_header row">
+            <p class="text-center darmon-brand timepiece1 text-dark col-6 offset-3">LD</p>
+            <div class="col-3 float-right">
+                <div class="row">
+                <div class="col-12 col-lg-6 no-padding">
+                <button class="btn btn-empty mx-auto d-block float-right no-padding" id="fr"><img class="img-fluid langage-btn-img mx-auto d-block" src="assets/images/fr.png"></button>
+            </div>
+            <div class="col-12 col-lg-6 no-padding">
+                <button class="btn btn-empty mx-auto d-block float-left no-padding" id="en"><img class="img-fluid langage-btn-img mx-auto d-block" src="assets/images/en.png"></button>
+            </div>
+            </div>
+                
+            </div>
+
         </header>
         <main class="">
             <section class="col-12 mt-5 bloc bloc1" id="bloc_accueil">
-                <h1 class="text-center">Bienvenue sur le cv numérique de <br>DARMON LEE-MICKAEL</h1>
-                <h5 class="text-center mt-3">Je suis un développeur fullstack spécialisé dans le langage PHP dont Symfony.<br>
-                    Cliquez sur une rubrique ci-dessous pour commencer à parcourir mon CV .
+                <h1 class="text-center"><span id="title"></span><br>DARMON LEE-MICKAEL</h1>
+                <h5 class="text-center mt-3"><span id="introduction"></span>
                 </h5>
                 <div class="row mt-3">
                     <div class="col-3"></div>
@@ -32,9 +44,10 @@
 
                             <div class="col-12 mt-5">
                             <p class="text-center">
-                            <a target="_blank" class="center" href="https://drive.google.com/file/d/1PveTvRxDKnEMd7dArJbX2ce1vyxB-2CH/view?usp=sharing">Télécharger mon CV</a>
+                            <a target="_blank" class="center" href="https://drive.google.com/file/d/1hPfNEQZaxGTD4vWLUmJlhAqT_cb09DVZ/view?usp=sharing">Télécharger mon CV</a>
                             </p>
                             </div>
+
 
                         </div>
                     </div>
@@ -56,5 +69,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/langage.js"></script>
 
 </html>
