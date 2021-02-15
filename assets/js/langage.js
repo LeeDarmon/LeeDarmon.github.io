@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
     if (lang == true){
         console.log('pas de modif');
-        $('#title').html('Bienvenue sur le cv numérique de  ');
+        $('#title').html('Bienvenue sur le CV numérique de  ');
         $('#introduction').html('Je suis un développeur fullstack spécialisé dans le langage PHP dont Symfony. <br> Cliquez sur une rubrique ci-dessous pour commencer à parcourir mon CV .');
        
     }
@@ -12,7 +12,7 @@ $( document ).ready(function() {
 $( "#fr" ).click(function() {
   console.log('langage set to fr');
   lang = true;
-  $('#title').html('Bienvenue sur le cv numérique de  ');
+  $('#title').html('Bienvenue sur le CV numérique de  ');
   $('#introduction').html('Je suis un développeur fullstack spécialisé dans le langage PHP dont Symfony. <br> Cliquez sur une rubrique ci-dessous pour commencer à parcourir mon CV .');
 });
 
